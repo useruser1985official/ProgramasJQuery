@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8"/>
         <title>Programas JQuery</title>
-        <script src="_javascript/jquery.js"></script>
+        <script src="javascript/jquery.js"></script>
         <script>
             $(document).ready(function() {   
                 var fundo = $("#plano").val();
@@ -14,7 +14,7 @@
                     $("body").css("background", "none");
                 }
                 else {
-                    $("body").css("background", "url('_imagens/" + fundo + "') top");
+                    $("body").css("background", "url('imagens/" + fundo + "') top");
                 }
                     
                 $("#fundo").on("input", function() {
@@ -24,7 +24,7 @@
                         $("body").css("background", "none");
                     }
                     else {
-                        $("body").css("background", "url('_imagens/" + fundo + "')");
+                        $("body").css("background", "url('imagens/" + fundo + "')");
                     }
                 });
             });
